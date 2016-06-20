@@ -1,0 +1,65 @@
+﻿body {
+        margin: 0;
+}
+
+h1 {
+position:absolute;
+    top: 60px;
+    font-size: 3em;
+    background: rgba(225, 222, 230, 0.53);
+    padding: 10px 582px;
+}
+
+div {
+    /*background-image: url('../image/bg-header_01.png');*/
+    padding: 0px;
+    position: relative;
+}
+    
+ul {
+        font: 14px Verdana, Geneva, sans-serif;
+        text-align: justify;
+    top: 230px;
+    right: 100px;
+        position: absolute;
+}
+
+
+    ul li {
+        
+        display: inline-block;
+        text-align: left;
+        border: 1px solid #000;
+            background: rgba(132, 129, 128, 0.79);
+    width: 350px;
+    height: 250px;
+    border-style: none;
+    margin: 10px;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 2mm;
+    }
+
+        ul li h2  {
+            font-size: 1.5em;
+      padding: 25px 30px 0 0;
+    text-align: right;
+            }
+
+         ul li h3 {
+            font-size: 1.5em;
+          padding: 17px 30px 0 0;
+    text-align: right;
+            }
+
+          ul li h4 {
+            font-size: 1.5em;
+           padding: 3px 30px 0 0;
+    text-align: right;
+            }
+
+        ul li p {
+        font-size: 0.8em;
+    text-align: justify;
+    padding: 0 30px;
+    margin: 0px;
+        }
